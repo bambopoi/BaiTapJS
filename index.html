@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- bài tập 1 -->
+      <div class="bai1 theme" style="background-color: #ADD8E6;">
+        <h1>Tính lương nhân viên</h1>
+        <input id="salary1" type="number" placeholder="Nhập lương 1 ngày" />
+        <input id="date1" type="number" placeholder="Số ngày làm" />
+        <button id="btn__submit1">Tính lương</button>
+        <i class="fa-solid fa-hand-point-down" style="color: #e83030;"></i><span id="result1">$</span>
+      </div>
+
+      <!-- bài tập 2 -->
+      <div class="bai2 theme" style="background-color: #B0E0E6;">
+        <h1>Tính giá trị trung bình</h1>
+        <form action="">
+          <input id="sst1" type="number" placeholder="Nhập số thứ 1" />
+          <input id="sst2" type="number" placeholder="Nhập số thứ 2" />
+          <input id="sst3" type="number" placeholder="Nhập số thứ 3" />
+          <input id="sst4" type="number" placeholder="Nhập số thứ 4" />
+          <input id="sst5" type="number" placeholder="Nhập số thứ 5" />
+          <button type="button" id="btn__submit2">Tính trung bình</button>
+        </form>
+        <i class="fa-solid fa-hand-point-down" style="color: #e83030;"></i><span id="result2"></span>
+      </div>
+
+      <!-- bài tập 3 -->
+      <div class="bai3 theme" style="background-color: #87CEFA;">
+        <h1>Quy đổi tiền</h1>
+        <input id="currency" type="number" placeholder="Nhập số tiền USD" />
+        <button id="btn__submit3">Quy đổi tiền</button>
+        <i class="fa-solid fa-hand-point-down" style="color: #e83030;"></i><span id="result3"></span>
+      </div>
+
+      <!-- bài tập 4 -->
+      <div class="bai4 theme" style="background-color: #87CEEB;">
+        <h1>Tính diện tích, chu vi hình chữ nhật</h1>
+        <input id="width" type="number" placeholder="Nhập chiều dài" />
+        <input id="height" type="number" placeholder="Nhập chiều rộng" />
+        <button id="btn__submit4">Tính</button>
+        <i class="fa-solid fa-hand-point-down" style="color: #e83030;"></i><span id="result4"></span>
+      </div>
+
+      <!-- bài tập 5 -->
+
+      <div class="bai5 theme" style="background-color: #6495ED;">
+        <h1>Tính tổng 2 ký số</h1>
+        <input id="number5" type="number" placeholder="Nhập chữ số 2 chữ số" />
+        <button id="btn__submit5">Tính Tổng</button>
+        <i class="fa-solid fa-hand-point-down" style="color: #e83030;"></i><span id="result5"></span>
+      </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
