@@ -11,7 +11,7 @@
 
 .theme h1 {
     margin-bottom: 70px;
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .theme button {
@@ -46,4 +46,8 @@
     font-size: 30px;
     margin: 10px 0;
     padding-top: 50px;
+}
+.theme .icontop{
+    font-size: 70px;
+    font-weight: 700;
 }
